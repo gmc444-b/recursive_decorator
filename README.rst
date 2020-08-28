@@ -18,7 +18,7 @@ Decorator to apply a given decorator recursively on all function, inside a funct
 What is ``recursive_decorator``?
 --------------------------------
 
-``recursive_decorator`` is a decorator that allows us to **decorate/trasform all functions along the stack call** at runtime, motivated by the need to add/transform logics, to known\unknown functions, along the stack calls.
+``recursive_decorator`` is a decorator that allows us to **decorate/transform all functions along the stack call** at runtime, motivated by the need to add/transform logics, to known\unknown functions, along the stack calls.
 
 Notes:
 ++++++
@@ -100,7 +100,7 @@ and so on...
 Examples
 --------
 
-Stop on Execption
+Stop on Exception
 +++++++++++++++++
 
 We can wrap all functions with try except...
